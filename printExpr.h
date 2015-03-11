@@ -1,4 +1,13 @@
 #pragma once
+//*******************************************************
+// Purpose: Prints out the expression when print token is found
+//
+// Author: Anthony Nguyen
+// Email:  anthony.nguyen@oit.edu
+//
+// Date: 3/10/2015
+//
+//*******************************************************
 #include <iostream>
 #include <string>
 #include "statement.h"

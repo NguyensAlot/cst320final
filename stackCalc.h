@@ -1,4 +1,13 @@
 #pragma once
+//*******************************************************
+// Purpose: Used to calculate using post fix notation. 
+//
+// Author: Anthony Nguyen
+// Email:  anthony.nguyen@oit.edu
+//
+// Date: 3/10/2015
+//
+//*******************************************************
 #include <iostream>
 #include <string>
 #include "expression.h"

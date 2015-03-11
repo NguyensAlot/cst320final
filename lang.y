@@ -55,10 +55,10 @@ stmt:       expr IDENTIFIER ';'
 
 expr:       INT_VAL             { $$ = $1; }
         |   IDENTIFIER          { }
-        |   expr expr '+'       { }
-        |   expr expr '-'       { }
-        |   expr expr '*'       { }
-        |   expr expr '/'       { }
+        |   expr expr '+'       { }//$$ = new stackCalc($1, $2, '+'); }
+        |   expr expr '-'       { }//$$ = new stackCalc($1, $2, '+'); }
+        |   expr expr '*'       { }//$$ = new stackCalc($1, $2, '+'); }
+        |   expr expr '/'       { }//$$ = new stackCalc($1, $2, '+'); }
             
 %%
 

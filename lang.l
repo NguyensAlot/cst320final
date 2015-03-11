@@ -26,7 +26,7 @@ identifier      [a-z]+
 {operator}                  RETURN(yytext[0]);
 "print"                     RETURN(PRINT);
 "end"                       RETURN(END);
-{integer}                   RETURN(INT_VAL);
+{integer}                   yylval.int_val = atoi(yytext); RETURN(INT_VAL);
 {identifier}                RETURN(yytext[0]);
 .                           RETURN(JUNK_TOKEN);   // discard anything not recognized
 

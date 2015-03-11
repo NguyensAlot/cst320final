@@ -2,7 +2,7 @@
  * Class: cSymbolTable
  * Author: Anthony Nguyen
  * 
- * Description: Takes care of cSymbol maps
+ * Description: Makes a list of maps for identifiers
  * **************************************************/
 #pragma once
 #include <iostream>
